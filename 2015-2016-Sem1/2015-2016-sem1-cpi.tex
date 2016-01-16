@@ -1,0 +1,73 @@
+% vim: set tw=78 sts=2 sw=2 ts=8 aw et ai:
+\documentclass[conference]{IEEEtran}
+
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+%\usepackage{hyperref}	  % use \url{http://$URL} or \href{http://$URL}{Name}
+\usepackage{underscore}	  % underscores need not be escaped
+\usepackage{subfigure}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{url}
+\usepackage{flushend}
+
+\usepackage{amssymb}
+
+% Support for including graphics
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+\begin{document}
+
+\title{Code-Pointer Integrity port in GCC}
+
+\author{\IEEEauthorblockN{Cristina Opricean\u a}
+\IEEEauthorblockA{Faculty of Automatic Control and Computer Science\\
+University Politehnica of Bucharest\\
+Email: cristina.opriceana@cti.pub.ro}}
+
+\maketitle
+
+\begin{abstract}
+\input{src/abstract}
+\end{abstract}
+
+%\textbf{\textit{Keywords -- ala, bala, portocala}}
+
+\begin{IEEEkeywords}
+Security, Control Flow Integrity, CPI, SafeStack, Code Pointers
+\end{IEEEkeywords}
+
+%\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+\label{sec:introduction}
+\input{src/introduction}
+
+\section{Related Work}
+\label{sec:relatedwork}
+\input{src/relatedwork}
+
+\section{Design and Implementation}
+\label{sec:design}
+\input{src/design}
+
+\section{Evaluation}
+\label{sec:results}
+\input{src/results}
+
+\section{Conclusion and Further Work}
+\label{sec:conclusion}
+\input{src/conclusion}
+%
+%\section*{Acknowledgment}
+%\label{sec:acknowledgment}
+%
+%The authors would like to thank XYZ for their support and dedication.
+%\vfill\break
+
+\bibliographystyle{abbrv}
+\bibliography{2015-2016-sem1-cpi}
+
+\end{document}

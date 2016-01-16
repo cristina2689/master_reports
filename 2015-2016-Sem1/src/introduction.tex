@@ -1,0 +1,26 @@
+
+General information:
+\begin {itemize}
+    \item  low level language security issues 
+    \item control flow hijacking -- give the attacker control of
+    the instruction pointer
+    \item  Short overview on DEP, ASLR and how can they be defeated
+\end {itemize}
+CPI Overview \cite {cpipaper}
+\begin {itemize}
+    \item instruments pointers at compile time
+    \item selective instumentation
+    \item CPS, a version of CPI for virtual pointers
+\end {itemize}
+The stack is treated separately, SafeStack
+\begin {itemize}
+    \item instrumentation pass
+    \item runtime support 
+\end {itemize}
+
+In this article, we discuss the need of implementing this security
+feature into the GNU Compiler Tools by taking a look at existing
+protection mechanisms and explains the steps taken so far to achieve
+this.
+
+
